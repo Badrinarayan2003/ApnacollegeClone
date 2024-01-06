@@ -1,0 +1,625 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Nav section */
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.nav-logo {
+    height: 50px;
+    width: 110px;
+    background-image: url("apna_logo.png");
+    background-size: cover;
+    padding: 2px 5px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+.apna-plus-btn {
+    background-color: #6674cc;
+    padding: 10px 13px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.sign-up {
+    color: #6674cc;
+    border: 2px solid #6674cc;
+    padding: 8px 13px;
+    border-radius: 4px;
+}
+
+.link {
+    font-size: 16px;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+/* banner section     rgb(229, 229, 241) */
+
+.container {
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(to right, white, rgb(215, 215, 247));
+}
+
+.hero-section {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.discription {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 49px;
+    /* margin: 80px 0 0 40px; */ 
+    position: relative;
+    top: 80px;
+    left: 40px;
+}
+
+.discription h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.45;
+}
+
+.discription h1 span {
+    color: #6674cc;
+}
+
+.discription p {
+    font-size: 27px;
+    margin-right: 75px;
+}
+
+.discription a {
+    background-color: #6674cc;
+    color: white;
+    text-decoration: none;
+    padding: 4px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 19px;
+    margin: 24px 40px 0 -175px;
+}
+
+.hero-image {
+    height: 100%;
+    width: 34%;
+    background-image: url("shradha_didi.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* margin: 120px 0 0 65px; */
+    position: relative;
+    top: 120px;
+    left: 65px;
+}
+
+
+/* comunity section */
+
+.comunity-section {
+    height: 200px;
+    background-color: #505ba0;
+
+}
+
+
+.comunity-section h1 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.counter-LVS {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: 600
+}
+
+.learner {
+    margin: 0 50px;
+    display: flex;
+}
+
+.viewer {
+    margin: 0 50px;
+    display: flex;
+}
+
+.subscriber {
+    margin-left: 50px;
+    display: flex;
+}
+
+.learner i {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.viewer i {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.subscriber i {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+
+/* EXPLORE SECTION   */
+
+.explore-section {
+    height: 380px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.dsa {
+    color: #6674cc;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.explore-section .journey {
+    font-size: 19px;
+}
+
+
+.explore-section h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.explore-section a {
+    background-color: #6674cc;
+    padding: 17px 30px;
+    font-size: 20px;
+    border-radius: 13px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+/* company section  */
+
+.company-section {
+    height: 600px;
+    background-color: #f8f8fa;
+}
+
+.company-section p {
+    font-size: 30px;
+    font-weight: 100;
+    width: 50%;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.company-section p span {
+    color: #6674cc;
+    font-weight: 700;
+}
+
+.top-company {
+    display: flex;
+    justify-content: center;
+}
+
+.amazon {
+    height: 60px;
+    width: 138px;
+    background-image: url("amazon.png");
+    background-size: cover;
+    padding: 1px 2px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.google {
+    height: 61px;
+    width: 124px;
+    background-image: url("google.png");
+    background-size: cover;
+    padding: 7px 2px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.microsoft {
+    height: 67px;
+    width: 136px;
+    background-image: url("microsoft.png");
+    background-size: cover;
+    padding: 12px 1px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.goldman {
+    height: 57px;
+    width: 117px;
+    background-image: url("goldman.png");
+    background-size: cover;
+    padding: 1px 4px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.paypal {
+    height: 66px;
+    width: 130px;
+    background-image: url("paypal.png");
+    background-size: cover;
+    padding: 12px 1px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.samsung {
+    height: 66px;
+    width: 130px;
+    background-image: url("samsung.png");
+    background-size: cover;
+    padding: 12px 1px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.mid-company {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.salesforce {
+    height: 74px;
+    width: 140px;
+    background-image: url("salesforce.png");
+    background-size: cover;
+    padding: 2px 16px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.netapp {
+    height: 80px;
+    width: 137px;
+    background-image: url("netapp.png");
+    background-size: cover;
+    padding: 1px 25px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.hitachi {
+    height: 60px;
+    width: 135px;
+    background-image: url("hitachi.png");
+    background-size: cover;
+    padding: 12px 1px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.jpmorgan {
+    height: 75px;
+    width: 147px;
+    background-image: url("jpmorgan.png");
+    background-size: cover;
+    padding: 25px 0px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.ibm {
+    height: 61px;
+    width: 120px;
+    background-image: url("ibm.png");
+    background-size: cover;
+    padding: 2px 1px;
+    margin: 0 20px;
+}
+
+.dell {
+    height: 73px;
+    width: 120px;
+    background-image: url("dell.png");
+    background-size: cover;
+    padding: 2px 15px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.bottom-company {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.deloitte {
+    height: 75px;
+    width: 162px;
+    background-image: url("deloitte.png");
+    background-size: cover;
+    padding: 13px 12px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.kpmg {
+    height: 64px;
+    width: 116px;
+    background-image: url("kpmg.png");
+    background-size: cover;
+    padding: 8px 2spx;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.isro {
+    height: 60px;
+    width: 135px;
+    background-image: url("isro.png");
+    background-size: cover;
+    padding: 12px 1px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.mercedes {
+    height: 74px;
+    width: 120px;
+    background-image: url("mercedes.png");
+    background-size: cover;
+    padding: 1px 3px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.ey {
+    height: 60px;
+    width: 106px;
+    background-image: url("ey.png");
+    background-size: cover;
+    padding: 0px 23px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.airtel {
+    height: 68px;
+    width: 123px;
+    background-image: url("airtel.png");
+    background-size: cover;
+    padding: 12px 1px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.many-more {
+    font-weight: lighter;
+    color: rgb(145, 142, 142);
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+
+/* card section   */
+
+
+.card-section {
+    background-color: #f8f8fa;
+}
+
+.card-section .dsa {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 25px;
+}
+
+.card-box {
+    height: 450px;
+    width: 100%;
+    margin: 13px 0;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+
+.first-card {
+    height: 100%;
+    width: 30%;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.second-card {
+    height: 100%;
+    width: 30%;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+
+
+.microsoft-cards {
+    background-image: url("microsoft_card.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.google-cards-one {
+    background-image: url("google_card_one.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.samsung-cards {
+    background-image: url("samsung_card.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.amazon-cards {
+    background-image: url("amazon_card.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.paypal-cards {
+    background-image: url("paypal_card.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.goldman-cards {
+    background-image: url("goldman_card.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mercedes-cards {
+    background-image: url("mercedes_card.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bank-cards {
+    background-image: url("bank_card.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jpmorgan-one-cards {
+    background-image: url("jpmorgan_card_one.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jpmorgan-two-cards {
+    background-image: url("jpmorgan_card_two.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.netapp-cards {
+    background-image: url("netapp_card.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.siemens-cards {
+    background-image: url("siemens_card.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fastenal-cards {
+    background-image: url("fastenal_card.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.citi-cards {
+    background-image: url("citi_card.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dell-cards {
+    background-image: url("dell_card.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.google-cards-two {
+    background-image: url("google_card_two.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card-section a{
+    background-color: #6674cc;
+    padding: 17px 30px;
+    font-size: 20px;
+    border-radius: 13px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 11.5%;
+    margin: 30px auto;
+}
+
+
+/* group image section    */
+
+.group-img-section h3{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+.group-img{
+    width: 1000px;
+    height: 570px;
+    margin: 50px auto;
+    background-image: url("group_image.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}

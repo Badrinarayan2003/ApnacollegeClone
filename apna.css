@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Nav section */
+nav {
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1; 
+
+}
+
+.nav-logo {
+    height: 50px;
+    width: 110px;
+    background-image: url("apna_logo.png");
+    background-size: cover;
+    padding: 2px 5px;
+    margin: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+.apna-plus-btn {
+    background-color: #6674cc;
+    padding: 10px 13px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.sign-up {
+    color: #6674cc;
+    border: 2px solid #6674cc;
+    padding: 8px 13px;
+    border-radius: 4px;
+}
+
+.link {
+    font-size: 16px;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+/* hero? */
+.container {
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(to right, white, rgb(215, 215, 247));
+}
+
+.hero {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+   
+}
+
+.discription {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 49px;
+    margin: 80px 0 0 40px;
+}
+.discription h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.45;    
+}
+.discription h1 span{
+  color: #6674cc;
+}
+
+.discription p{
+    font-size: 27px;
+    margin-right: 75px;
+}
+.discription a{
+    background-color: #6674cc;
+    color: white;
+    text-decoration: none;
+    padding: 4px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 19px;
+    margin: 24px 40px 0 -175px;
+}
+
+.hero-image {
+    height: 100%;
+    width: 34%;
+    background-image: url(shradha_didi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 120px 0 0 65px;
+}
