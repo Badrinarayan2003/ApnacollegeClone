@@ -21,7 +21,7 @@ nav {
 .nav-logo {
     height: 50px;
     width: 110px;
-    background-image: url("apna_logo.png");
+    background-image: url("image/apna_logo.png");
     background-size: cover;
     padding: 2px 5px;
     margin: 0 20px;
@@ -126,7 +126,7 @@ nav ul li a {
 .hero-image {
     height: 100%;
     width: 34%;
-    background-image: url("shradha_didi.png");
+    background-image: url("image/shradha_didi.png");
     background-size: contain;
     background-repeat: no-repeat;
     /* margin: 120px 0 0 65px; */
@@ -259,7 +259,7 @@ nav ul li a {
 .amazon {
     height: 60px;
     width: 138px;
-    background-image: url("amazon.png");
+    background-image: url("image/amazon.png");
     background-size: cover;
     padding: 1px 2px;
     margin: 0 20px;
@@ -269,7 +269,7 @@ nav ul li a {
 .google {
     height: 61px;
     width: 124px;
-    background-image: url("google.png");
+    background-image: url("image/google.png");
     background-size: cover;
     padding: 7px 2px;
     margin: 0 20px;
@@ -279,7 +279,7 @@ nav ul li a {
 .microsoft {
     height: 67px;
     width: 136px;
-    background-image: url("microsoft.png");
+    background-image: url("image/microsoft.png");
     background-size: cover;
     padding: 12px 1px;
     margin: 0 20px;
@@ -289,7 +289,7 @@ nav ul li a {
 .goldman {
     height: 57px;
     width: 117px;
-    background-image: url("goldman.png");
+    background-image: url("image/goldman.png");
     background-size: cover;
     padding: 1px 4px;
     margin: 0 20px;
@@ -299,7 +299,7 @@ nav ul li a {
 .paypal {
     height: 66px;
     width: 130px;
-    background-image: url("paypal.png");
+    background-image: url("image/paypal.png");
     background-size: cover;
     padding: 12px 1px;
     margin: 0 20px;
@@ -309,7 +309,7 @@ nav ul li a {
 .samsung {
     height: 66px;
     width: 130px;
-    background-image: url("samsung.png");
+    background-image: url("image/samsung.png");
     background-size: cover;
     padding: 12px 1px;
     margin: 0 20px;
@@ -325,7 +325,7 @@ nav ul li a {
 .salesforce {
     height: 74px;
     width: 140px;
-    background-image: url("salesforce.png");
+    background-image: url("image/salesforce.png");
     background-size: cover;
     padding: 2px 16px;
     margin: 0 20px;
@@ -335,7 +335,7 @@ nav ul li a {
 .netapp {
     height: 80px;
     width: 137px;
-    background-image: url("netapp.png");
+    background-image: url("image/netapp.png");
     background-size: cover;
     padding: 1px 25px;
     margin: 0 20px;
@@ -345,7 +345,7 @@ nav ul li a {
 .hitachi {
     height: 60px;
     width: 135px;
-    background-image: url("hitachi.png");
+    background-image: url("image/hitachi.png");
     background-size: cover;
     padding: 12px 1px;
     margin: 0 20px;
@@ -355,7 +355,7 @@ nav ul li a {
 .jpmorgan {
     height: 75px;
     width: 147px;
-    background-image: url("jpmorgan.png");
+    background-image: url("image/jpmorgan.png");
     background-size: cover;
     padding: 25px 0px;
     margin: 0 20px;
@@ -365,7 +365,7 @@ nav ul li a {
 .ibm {
     height: 61px;
     width: 120px;
-    background-image: url("ibm.png");
+    background-image: url("image/ibm.png");
     background-size: cover;
     padding: 2px 1px;
     margin: 0 20px;
@@ -374,7 +374,7 @@ nav ul li a {
 .dell {
     height: 73px;
     width: 120px;
-    background-image: url("dell.png");
+    background-image: url("image/dell.png");
     background-size: cover;
     padding: 2px 15px;
     margin: 0 20px;
@@ -391,7 +391,7 @@ nav ul li a {
 .deloitte {
     height: 75px;
     width: 162px;
-    background-image: url("deloitte.png");
+    background-image: url("image/deloitte.png");
     background-size: cover;
     padding: 13px 12px;
     margin: 0 20px;
@@ -401,7 +401,7 @@ nav ul li a {
 .kpmg {
     height: 64px;
     width: 116px;
-    background-image: url("kpmg.png");
+    background-image: url("image/kpmg.png");
     background-size: cover;
     padding: 8px 2spx;
     margin: 0 20px;
@@ -411,7 +411,7 @@ nav ul li a {
 .isro {
     height: 60px;
     width: 135px;
-    background-image: url("isro.png");
+    background-image: url("image/isro.png");
     background-size: cover;
     padding: 12px 1px;
     margin: 0 20px;
@@ -421,7 +421,7 @@ nav ul li a {
 .mercedes {
     height: 74px;
     width: 120px;
-    background-image: url("mercedes.png");
+    background-image: url("image/mercedes.png");
     background-size: cover;
     padding: 1px 3px;
     margin: 0 20px;
@@ -431,7 +431,7 @@ nav ul li a {
 .ey {
     height: 60px;
     width: 106px;
-    background-image: url("ey.png");
+    background-image: url("image/ey.png");
     background-size: cover;
     padding: 0px 23px;
     margin: 0 20px;
@@ -441,7 +441,7 @@ nav ul li a {
 .airtel {
     height: 68px;
     width: 123px;
-    background-image: url("airtel.png");
+    background-image: url("image/airtel.png");
     background-size: cover;
     padding: 12px 1px;
     margin: 0 20px;
@@ -498,97 +498,97 @@ nav ul li a {
 
 
 .microsoft-cards {
-    background-image: url("microsoft_card.png");
+    background-image: url("image/microsoft_card.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .google-cards-one {
-    background-image: url("google_card_one.png");
+    background-image: url("image/google_card_one.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .samsung-cards {
-    background-image: url("samsung_card.png");
+    background-image: url("image/samsung_card.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .amazon-cards {
-    background-image: url("amazon_card.png");
+    background-image: url("image/amazon_card.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .paypal-cards {
-    background-image: url("paypal_card.png");
+    background-image: url("image/paypal_card.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .goldman-cards {
-    background-image: url("goldman_card.png");
+    background-image: url("image/goldman_card.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .mercedes-cards {
-    background-image: url("mercedes_card.png");
+    background-image: url("image/mercedes_card.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .bank-cards {
-    background-image: url("bank_card.png");
+    background-image: url("image/bank_card.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .jpmorgan-one-cards {
-    background-image: url("jpmorgan_card_one.png");
+    background-image: url("image/jpmorgan_card_one.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .jpmorgan-two-cards {
-    background-image: url("jpmorgan_card_two.png");
+    background-image: url("image/jpmorgan_card_two.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .netapp-cards {
-    background-image: url("netapp_card.png");
+    background-image: url("image/netapp_card.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .siemens-cards {
-    background-image: url("siemens_card.png");
+    background-image: url("image/siemens_card.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .fastenal-cards {
-    background-image: url("fastenal_card.png");
+    background-image: url("image/fastenal_card.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .citi-cards {
-    background-image: url("citi_card.png");
+    background-image: url("image/citi_card.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .dell-cards {
-    background-image: url("dell_card.png");
+    background-image: url("image/dell_card.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .google-cards-two {
-    background-image: url("google_card_two.png");
+    background-image: url("image/google_card_two.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -618,7 +618,7 @@ nav ul li a {
     width: 1000px;
     height: 570px;
     margin: 50px auto;
-    background-image: url("group_image.jpeg");
+    background-image: url("image/group_image.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
     
